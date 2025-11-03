@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">AprendeApp</string>
+    <string name="welcome_message">¡Bienvenido a AprendeApp!</string>
+
+    <!-- Auth -->
+    <string name="login">Iniciar Sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="name">Nombre Completo</string>
+    <string name="confirm_password">Confirmar Contraseña</string>
+    <string name="no_account">¿No tienes cuenta?</string>
+    <string name="have_account">¿Ya tienes cuenta?</string>
+
+    <!-- Recursos y Acciones Comunes -->
+    <string name="recursos_title">Recursos de Aprendizaje</string>
+    <string name="add_resource">Agregar Recurso</string>
+    <string name="edit_resource">Editar Recurso</string>
+    <string name="delete_resource">Eliminar Recurso</string>
+    <string name="search">Buscar</string>
+    <string name="title">Título</string>
+    <string name="description">Descripción</string>
+    <string name="type">Tipo</string>
+    <string name="link">Enlace</string>
+    <string name="image_url">URL de Imagen</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="new_resource">Nuevo Recurso</string>
+
+    <!-- Tipos -->
+    <string name="type_book">Libro</string>
+    <string name="type_video">Video</string>
+    <string name="type_tutorial">Tutorial</string>
+    <string name="type_article">Artículo</string>
+
+    <!-- Mensajes y Diálogos -->
+    <string name="loading">Cargando…</string>
+    <string name="error_occurred">Ha ocurrido un error</string>
+    <string name="success">Operación exitosa</string>
+    <string name="delete_confirm">¿Estás seguro de eliminar este recurso?</string>
+    <string name="logout_confirm">¿Cerrar sesión?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+
+    <!-- Mensajes de Feedback -->
+    <string name="login_exitoso">Login exitoso</string>
+    <string name="error_login">Error en login: Credenciales inválidas</string>
+    <string name="error_carga_recursos">Error cargando recursos</string>
+    <string name="recurso_creado">Recurso creado</string>
+    <string name="recurso_actualizado">Recurso actualizado</string>
+    <string name="recurso_agregado">Recurso agregado</string>
+    <string name="recurso_eliminado">Recurso eliminado</string>
+
+    <!-- Validaciones de Formularios -->
+    <string name="error_empty_field">Este campo es obligatorio</string>
+    <string name="error_invalid_email">Email inválido</string>
+    <string name="error_password_short">La contraseña debe tener al menos 8 caracteres</string>
+    <string name="error_password_uppercase">Debe contener al menos una mayúscula</string>
+    <string name="error_password_lowercase">Debe contener al menos una minúscula</string>
+    <string name="error_password_number">Debe contener al menos un número</string>
+    <string name="error_password_special">Debe contener al menos un carácter especial (!@#$%^&amp;*) </string>
+    <string name="error_passwords_not_match">Las contraseñas no coinciden</string>
+    <string name="error_titulo">El título es requerido</string>
+    <string name="error_descripcion">La descripción es requerida</string>
+    <string name="error_enlace">El enlace es requerido</string>
+    <string name="error_enlace_invalido">El enlace no es válido</string>
+    <string name="error_imagen">La URL de la imagen es requerida</string>
+
+    <!-- Hints para Campos de Texto -->
+    <string name="titulo_hint">Título del Recurso</string>
+    <string name="descripcion_hint">Descripción detallada</string>
+    <string name="enlace_hint">URL del recurso</string>
+    <string name="imagen_hint">URL de la imagen</string>
+
+    <!-- Array para Spinners/Filtros -->
+    <string-array name="tipos_recursos">
+        <item>Todos</item>
+        <item>libro</item>
+        <item>video</item>
+        <item>tutorial</item>
+        <item>articulo</item>
+    </string-array>
+</resources>
